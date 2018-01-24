@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mylayout"
+    tools:context="com.example.dell.learnstackdemo.MainActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerlayout"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:id="@+id/main_context"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:theme="@style/MyToolbarTheme"
+                app:popupTheme="@style/PopUpTheme"
+                android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/course_image_slider"
+                        ></android.support.v4.view.ViewPager>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Our Courses"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Master in-demand skills.Learn online at your own pace.Get Mentored by an industry expert."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:layout_marginBottom="5dp"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/course_scroller"></android.support.v7.widget.RecyclerView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="How does it work?"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Learnstack's personalized approach is designed to help you achieve your goals and advance your career."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:layout_marginBottom="5dp"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/working_scroller"></android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/navigationView"
+            android:layout_gravity="start"
+            app:itemIconTint="#90A4AE"
+            app:itemTextColor="#90A4AE"
+            app:itemTextAppearance="@style/TextAppearance.AppCompat.Small"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/menu_items_navigation_view"
+            ></android.support.design.widget.NavigationView>
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fab_logo"
+        android:layout_gravity="bottom|end"
+        android:elevation="5dp"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        android:id="@+id/fab"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

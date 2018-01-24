@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/featured"
+            android:title="Featured"
+            android:checkable="true"
+            android:icon="@drawable/feaured_logo"
+            ></item>
+        <item
+            android:id="@+id/mycourses"
+            android:title="My Courses"
+            android:checkable="true"
+            android:icon="@drawable/my_courses_logo"
+            ></item>
+        <item
+            android:id="@+id/wishlist"
+            android:title="WishList"
+            android:checkable="true"
+            android:icon="@drawable/wishlist_logo"
+            ></item>
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:title="Settings"
+            android:checkable="true"
+            ></item>
+        <item
+            android:id="@+id/support"
+            android:title="Support"
+            android:checkable="true"
+            ></item>
+        <item
+            android:id="@+id/signout"
+            android:title="Sign Out"
+            android:checkable="true"
+            ></item>
+    </group>
+</menu>
