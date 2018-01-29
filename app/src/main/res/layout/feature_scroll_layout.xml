@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCESSIBILITY"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/accessibility"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14.6sp"
+            android:text="All the courses are online hence can be\naccessed through any device any time"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AFFORDABILITY"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/affordability"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="We have kept the course fee at a price point\nthat anybody can enroll for the course."/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HANDS-ON APPROACH"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/handson"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="All the courses consists of ample practical\nand real world problems with solutions."/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KICKASS MENTORS"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/mentor"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="Learnstack faculty pool consists of\nexperienced and knowledgeable industry\nexperts."/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CUSTOMER SUPPORT"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/customer"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="As a student you can support via both mail\nand whatsapp, along with doubt clearing\nsessions."/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CERTIFIED COURSES"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/certified"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="For every course that you do with us will get\nyou a Certificate as well as Project\nCompletion Letter."/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDY MATERIALS"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/study"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="Every course is accompanied with a\nresource bundle consisting of notes and\nproject files and prep. material"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="9dp"
+        android:layout_width="290dp"
+        android:layout_height="165dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOB/INTERNSHIP SUPPORT"
+            android:gravity="center"
+            android:textColor="#0de282"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/job2"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="109dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.6sp"
+            android:text="Once you complete the course, we fetch you\nsome job and internship offers from our\nsister website Nfly."/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

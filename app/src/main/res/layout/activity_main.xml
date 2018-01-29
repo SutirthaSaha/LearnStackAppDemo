@@ -73,12 +73,57 @@
                         android:text="Learnstack's personalized approach is designed to help you achieve your goals and advance your career."
                         android:textAppearance="@style/TextAppearance.AppCompat.Small"
                         android:layout_marginBottom="5dp"/>
-                    <android.support.v7.widget.RecyclerView
+                    <HorizontalScrollView
+                        android:id="@+id/hsv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scrollbars="none">
+
+                        <include layout="@layout/working_scroll_layout"/>
+
+                    </HorizontalScrollView>
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/working_scroller"></android.support.v7.widget.RecyclerView>
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Features"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="A quick glance through the points that makes us stand out"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:layout_marginBottom="5dp"/>
+                    <HorizontalScrollView
+                        android:id="@+id/hsv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scrollbars="none">
 
+                        <include layout="@layout/feature_scroll_layout"/>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Learnstack Alumni Work for amazing companies"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+                    <HorizontalScrollView
+                        android:id="@+id/hsv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scrollbars="none">
+
+                        <include layout="@layout/alumni_scroll_layout"/>
+
+                    </HorizontalScrollView>
                 </LinearLayout>
+
             </ScrollView>
         </LinearLayout>
 

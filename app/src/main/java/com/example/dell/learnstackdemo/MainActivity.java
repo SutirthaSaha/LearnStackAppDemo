@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     ViewPager course_image_slider;
 
-    RecyclerView course_scroller,working_scroller;
+    RecyclerView course_scroller;
     RecyclerView.Adapter adapter;
     RecyclerView.LayoutManager layoutManager;
     @Override
@@ -48,8 +48,7 @@ public class MainActivity extends AppCompatActivity {
         course_scroller=(RecyclerView)findViewById(R.id.course_scroller);
         setCourseScroller(course_scroller);
 
-        working_scroller=(RecyclerView)findViewById(R.id.working_scroller);
-        setWorkingScroller(working_scroller);
+
 
         course_image_slider=(ViewPager)findViewById(R.id.course_image_slider);
 
@@ -64,15 +63,6 @@ public class MainActivity extends AppCompatActivity {
         setnavigationdrawer();
     }
 
-    private void setWorkingScroller(RecyclerView recyclerView) {
-        recyclerView.setHasFixedSize(true);
-
-        layoutManager=new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
-        recyclerView.setLayoutManager(layoutManager);
-
-        adapter=new ItemScrollAdapter(titleDataSet,emptyDataSet,imageDataSet);
-        recyclerView.setAdapter(adapter);
-    }
 
     private void setCourseScroller(RecyclerView recyclerView) {
         recyclerView.setHasFixedSize(true);
